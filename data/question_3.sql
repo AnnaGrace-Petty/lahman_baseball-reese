@@ -5,7 +5,6 @@ total salary they earned in the major leagues. Sort this list in descending
 order by the total salary earned. Which Vanderbilt player earned the most 
 money in the majors?*/ 
 --DAVID PRICE
-
 WITH vandy_players AS (SELECT schoolid, schoolname, playerid
 	                   FROM schools INNER JOIN collegeplaying
                        USING (schoolid)
